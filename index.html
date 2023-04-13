@@ -41,6 +41,52 @@ The following tags are used in this Html code for creating the Login form:
 <body>
     <div>This is where the purchase form would go</div>
     <button id="purchase">Purchase</button>
+  ecommerce: {
+
+    currency: "USD",
+
+    value: 8,
+
+    items: [
+
+    {
+
+      item_id: "CHRST001",
+
+      item_name: "Book",
+
+      affiliation: "Google Merchandise Store",
+
+      coupon: " Entertainment",
+
+      discount: 2.22,
+
+      index: 0,
+
+      item_brand: "Google",
+
+      item_category: "Education",
+
+      item_category2: "Book",
+
+      item_category3: "e-Book",
+
+      item_category4: "Audio_book",
+
+      item_list_id: "related_products",
+
+      item_list_name: "Related Products",
+
+      item_variant: "Reading",
+
+      location_id: "MST112",
+
+      price: 20,
+
+      quantity: 5
+
+    }
+
     <script>
     document.getElementById("purchase").addEventListener("click", function () {
         gtag("event", "purchase", {
